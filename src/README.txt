@@ -8,4 +8,4 @@ my_anchor.py:
 integrate_eventalign_KF278742.1_dict.py：
     arg1: eventalign_names.tsv
 
-    实际是my_anchor.py中的一个函数,用以整合eventalign_names.tsv中的信息到一个字典中，并将字典保存到一个文件“integrated_eventalign_KF278742.1_dict.txt”中。函数尽可能地计算出打分时需要的所有信息,只留下有用的略去无用的,并以字典形式呈现,使后面的工作能够快捷方便地获取这些数据。
+    实际是my_anchor.py中的一个函数,用以整合eventalign_names.tsv中的信息到一个字典中，并将字典保存到一个文件“integrated_eventalign_KF278742.1_dict.txt”中，成功的话，以后my_anchor.py就不用读eventalign_names.tsv，而是从这个字典文件里得到需要的数据。函数尽可能地计算出打分时需要的所有信息,只留下有用的略去无用的,并以字典形式呈现,使后面的工作能够快捷方便地获取这些数据。问题在于太慢了。
